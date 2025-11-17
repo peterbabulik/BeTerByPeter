@@ -52,7 +52,8 @@ Installation is handled by a simple script.
     ```
     The installer will make the `beter.py` script executable and create a symbolic link in `/usr/local/bin`, so you can call `beter` from anywhere. It will ask for your password to do this.
     *restart terminal, or start new one*
- **or you can run: python3 beter.py "find files larger than 100MB"**
+ 
+## or you can run: python3 beter.py "find files larger than 100MB"
     ```bash
     python3 beter.py "find files larger than 100MB"
     ```
