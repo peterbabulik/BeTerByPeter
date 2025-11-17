@@ -45,7 +45,7 @@ Installation is handled by a simple script.
     cd BeTerByPeter
     ```
 
-3.  **if you want beter command, in bash (example: better "your qeustion here" , Run the Installer**
+3.  **if you want beter command, in bash (example: better "your qeustion here"), Run the Installer**
     ```bash
     chmod +x install.sh
     ./install.sh
