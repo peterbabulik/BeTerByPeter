@@ -60,7 +60,7 @@ Installation is handled by a simple script.
 
 ## 🚀 First Run & Usage
 
-The first time you run `beter`, it will trigger the setup assistant:
+The first time you run `beter`,or `python3 beter.py` it will trigger the setup assistant:
 
 1.  It will check if Ollama is installed and running. If not, it will provide instructions.
 2.  You will be prompted to choose an AI model to download based on your system's RAM.
@@ -76,6 +76,15 @@ beter "who is the current user?"
 # More complex commands
 beter "create a compressed tar archive of the 'my_project' directory"
 beter "search for every line containing the word 'error' in the system log"
+```
+```bash
+# Simple python3 commands
+python3 beter.py "what is my current directory?"
+python3 beter.py "who is the current user?"
+
+# More complex commands
+python3 beter.py "create a compressed tar archive of the 'my_project' directory"
+python3 beter.py "search for every line containing the word 'error' in the system log"
 ```
 
 ### Configuration
