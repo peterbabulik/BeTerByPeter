@@ -45,14 +45,14 @@ Installation is handled by a simple script.
     cd BeTerByPeter
     ```
 
-3.1  **if you want beter command, in bash (example: better "your qeustion here" , Run the Installer**
+3.  **if you want beter command, in bash (example: better "your qeustion here" , Run the Installer**
     ```bash
     chmod +x install.sh
     ./install.sh
     ```
     The installer will make the `beter.py` script executable and create a symbolic link in `/usr/local/bin`, so you can call `beter` from anywhere. It will ask for your password to do this.
     *restart terminal, or start new one*
-3.2  **or you can run: python3 beter.py "find files larger than 100MB"**
+ **or you can run: python3 beter.py "find files larger than 100MB"**
     ```bash
     python3 beter.py "find files larger than 100MB"
     ```
